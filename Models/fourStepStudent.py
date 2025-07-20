@@ -12,8 +12,6 @@ import sys
 import datetime
 import torchvision
 
-# bro please use tmux to run this, else the resources are just getting used up for no reason. and thank you -- concerned co-gpu user
-
 class TrainingConfig:
     def __init__(self):
         self.batch_size = 256
